@@ -1,12 +1,9 @@
 <template>
   <div class="hello text-left">
     <h1>{{ msg }}</h1>
-    <el-button type="primary">Primary</el-button>
+    <el-button type="primary" class="my-4">Primary</el-button>
     <p>
-      {{ $t("title") }}
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener"
-        >vue-cli documentation</a
-      >.
+      {{ $t("hello") }}
     </p>
   </div>
 </template>

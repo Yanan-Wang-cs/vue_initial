@@ -5,6 +5,9 @@
 @import "./theme/theme1.scss";
 @import "./theme/theme2.scss";
 
+a {
+  text-decoration: none;
+}
 html, body, #app {
   height: 100%;
 }

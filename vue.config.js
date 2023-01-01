@@ -29,7 +29,7 @@ module.exports = defineConfig({
   css: {
     loaderOptions: {
       scss: {
-        additionalData: `@use "@/assets/style/theme/orange.scss" as *;`,
+        additionalData: `@use "@/assets/style/element/index.scss" as *;`,
       },
     },
   },
